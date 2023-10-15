@@ -26,8 +26,8 @@ If you would like color output, you can `require 'minitest/pride'` in
 the test file, or note the alternative instruction, below, for running
 the test file.
 
-In order to run the test, you can run the test file from the test directory. Running the following command:
+In order to run the test, you can run a single test file from the test directory, e.g.:
     ruby shop_test.rb
 
-Or from the root folder running:
+Or the whole set from the root folder running:
     rake test
