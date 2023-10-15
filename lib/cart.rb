@@ -5,8 +5,8 @@ class Cart
     @items = []
   end
 
-  # Takes an Array of items
-  # Concatenates items to the existing ones if any
+  # Params: Array of Strings
+  # Concatenates items
   #
   def add_items(items)
     @items += items

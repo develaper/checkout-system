@@ -17,6 +17,9 @@ class Shop
     }
   }
 
+  # Params: String key for items
+  # Returns a Float
+  #
   def self.item_cost(item)
       STOCK[:items][item.to_sym][:cost]
   end
