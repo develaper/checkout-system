@@ -31,3 +31,25 @@ In order to run the test, you can run a single test file from the test directory
 
 Or the whole set from the root folder running:
     rake test
+
+## Design Description
+
+What we want to implement:
+
+* A shop that sells different items.
+
+* A cart that can hold items.
+
+* A till that calculates the cost of a cart's items.
+
+* A checkout process responsible for the input and output.
+
+Design:
+
+* `Shop` Keeps items info and provides item's costs.
+
+* `Cart` holds items.
+
+* `Till` calculates and is purely functional.
+
+* `Checkout` is a command line interface.
